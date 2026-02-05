@@ -1,0 +1,26 @@
+# OS / Editor
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual envs
+.venv/
+.venv311/
+venv/
+.env
+
+# Large / generated artifacts
+artifacts/
+predicted_headings/
+**/checkpoint-*/
+
+# Data (keep out by default)
+data/
+inputs/
+
+# Notebooks (optional: keep or ignore)
+# *.ipynb
+
