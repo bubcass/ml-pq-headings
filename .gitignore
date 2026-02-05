@@ -12,6 +12,9 @@ __pycache__/
 venv/
 .env
 
+# Outputs
+outputs/predictions_*.csv
+
 # Large / generated artifacts
 artifacts/
 predicted_headings/
