@@ -3,6 +3,7 @@
 This repository contains a proof-of-concept system for automatically assigning
 official thematic labels (question headings) to parliamentary questions (PQs) using supervised
 machine learning.
+Performance for 2026 data: [Supervised machine learning applied to question headings](https://observablehq.com/@cassdavid/ml-performance)
 
 ## What’s included
 - Training and evaluation scripts (TensorFlow, DistilBERT, DeBERTa)
