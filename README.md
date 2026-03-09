@@ -1,7 +1,7 @@
 # Automated Classification of Parliamentary Questions
 
 This repository contains a proof-of-concept system for automatically assigning
-official thematic headings to Parliamentary Questions (PQs) using supervised
+official thematic labels (question headings) to parliamentary questions (PQs) using supervised
 machine learning.
 
 ## What’s included
@@ -12,9 +12,9 @@ machine learning.
 ## What’s not included
 - Training data
 - Trained model weights
-- Prediction outputs
+- Some prediction outputs
 
 These are intentionally excluded for size and governance reasons.
 
 ## Status
-Research / Proof of Concept
+Research / Proof of concept
