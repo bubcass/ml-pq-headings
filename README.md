@@ -5,6 +5,7 @@ official thematic labels (question headings) to parliamentary questions (PQs) us
 machine learning.
 
 Performance for 2026 data: [Supervised machine learning applied to question headings](https://observablehq.com/@cassdavid/ml-performance)
+Models at [huggingface](https://huggingface.co/bubcass)
 
 ## What’s included
 - Training and evaluation scripts (TensorFlow, DistilBERT, DeBERTa)
