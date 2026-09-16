@@ -22,3 +22,22 @@ These are intentionally excluded for size and governance reasons.
 
 ## Status
 Research / Proof of concept
+
+## Rebuild the 2026 evaluation
+
+The annual runner downloads one canonical PQ snapshot, evaluates both DistilBERT
+and DeBERTa against that same snapshot, validates the paired outputs, and only
+then replaces the four CSV files in `outputs/`.
+
+```bash
+# Rebuild locally without committing or pushing
+./run_metrics.sh --no-push
+
+# Rebuild, validate, commit the output CSVs, and push
+./run_metrics.sh
+```
+
+Inference settings come from each model's `metadata.json`, including cleaned
+question text, maximum token length, and tokenizer type. The daily metrics retain
+overall accuracy for the frozen-label test and also report model-vocabulary
+coverage and accuracy among headings present in that frozen vocabulary.
