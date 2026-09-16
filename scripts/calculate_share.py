@@ -39,6 +39,6 @@ print(f"\nTotal headings in taxonomy: {len(counts)}")
 print(f"Total PQs analysed: {total}")
 
 # ---- SAVE FULL TABLE ----
-counts.to_csv("heading_distribution.csv", index=False)
+counts.to_csv("outputs/heading_distribution.csv", index=False)
 
-print("\nSaved full distribution to: heading_distribution.csv")
+print("\nSaved full distribution to: outputs/heading_distribution.csv")
