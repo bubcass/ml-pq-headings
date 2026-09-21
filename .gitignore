@@ -20,7 +20,9 @@ predicted_headings/
 # Data (keep out by default)
 data/
 inputs/
+!inputs/
+!inputs/word_question_papers/
+!inputs/word_question_papers/*.docx
 
 # Notebooks (optional: keep or ignore)
 # *.ipynb
-

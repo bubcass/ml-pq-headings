@@ -57,7 +57,7 @@ def load_label_map(model_dir: Path) -> dict[int, str]:
     path = model_dir / "label_map.json"
     if not path.exists():
         raise SystemExit(f"DistilBERT label map not found: {path}")
-    return {int(key): str(value) for key, value in json.loads(path.read_text()).items()}
+    return {int(key): str(value).strip() for key, value in json.loads(path.read_text()).items()}
 
 
 def load_max_length(model_dir: Path) -> int:
