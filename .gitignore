@@ -9,6 +9,7 @@ __pycache__/
 # Virtual envs
 .venv/
 .venv311/
+.venv311-python31114-backup
 venv/
 .env
 
